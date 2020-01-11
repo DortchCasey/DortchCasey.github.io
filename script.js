@@ -4,3 +4,4 @@ let lastModif = new Date(document.lastModified);
 let curYear= new Date();
 document.getElementById('copyYear').innerHTML=curYear.getFullYear;
 document.getElementById('lastModYear').innerHTML=lastModif;
+/*end*/
