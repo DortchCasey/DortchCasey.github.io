@@ -32,5 +32,6 @@ nav ul{
     padding:2em;
 }
 #image{
-    align: right;
+    float: right;
+    margin-right: 3em;
 }
