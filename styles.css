@@ -10,11 +10,11 @@ body {
 }
 header{
     width:100%;
-    background-color:white;
+    background-color:#2B4162;
     align-items:left;
     color: #F5F0F6;
     font-family: 'Crimson Text', serif;
-    padding: 1em;
+    padding: 2em;
 }
 main{
     background-color: white;
@@ -26,6 +26,7 @@ h3{
 footer{
     text-align: center;
     padding:1em;
+    color: #F5F0F6;
 }
 nav ul{
     padding:2em;
