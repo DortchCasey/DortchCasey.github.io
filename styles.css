@@ -31,3 +31,6 @@ footer{
 nav ul{
     padding:2em;
 }
+#image{
+    align-items: right;
+}
