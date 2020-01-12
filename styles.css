@@ -13,11 +13,10 @@ header{
     background-color:#2B4162;
     align-items:left;
     color: #F5F0F6;
-    font-family: 'Crimson Text', serif;
 }
 h1{
     font-family: 'Crimson Text', serif;
-    padding: 2em;
+    padding: 1em;
     font-size: 2em;
 }
 main{
@@ -41,6 +40,9 @@ footer a:link, footer a:visited{
 nav{
     padding-left:2em;
     padding-bottom:1em;
+}
+nav ul li{
+    padding: .5em;
 }
 #image{
     float: right;
