@@ -24,6 +24,7 @@ main{
 h3{
     padding-left: 4em;
     padding-top: 2em;
+    padding-bottom:1em;
 }
 footer{
     text-align: center;
@@ -32,6 +33,7 @@ footer{
 }
 nav{
     padding-left:2em;
+    padding-bottom:1em;
 }
 #image{
     float: right;
