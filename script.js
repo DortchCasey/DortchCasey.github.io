@@ -2,7 +2,7 @@
 and the time the document was last modified. */
 let lastModif = new Date(document.lastModified);
 let curYear= new Date();
-alert(curYear.getFullYear())
+alert(curYear.getFullYear());
 document.getElementById('copyYear').innerHTML=curYear.getFullYear();
 document.getElementById('lastModYear').innerHTML=lastModif;
 /*end*/
