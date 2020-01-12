@@ -31,6 +31,9 @@ footer{
     padding:1em;
     color: #F5F0F6;
 }
+footer a:link, footer a:visited{
+    color:#D7B377;
+}
 nav{
     padding-left:2em;
     padding-bottom:1em;
