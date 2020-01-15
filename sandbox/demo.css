@@ -1,0 +1,31 @@
+/* Imports always are firts */
+@import url(/normalize.css);
+html *{
+    box-sizing:border-box;
+}
+
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 18px; /*1em or 1rem*/
+    background-color: aliceblue;
+}
+
+/*Mobile Rules Next*/
+#wrapper{
+    width:100%;
+    background-color: aquamarine;
+}
+
+/* larger screen rules */
+@media screen and (min-width:680px){
+#wrapper{
+    width:80%;
+    margin:0 auto;
+    background-color: blue;
+    max-width: 1300px;
+    font-size: 4vw;
+}
+}
