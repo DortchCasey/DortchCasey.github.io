@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Spectral&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Spectral', serif;
+  color: black;
+  grid-column:-1/-6;
+}
+
+#design-grid {
+    padding:1em;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+  }
+
+  
+  #cult{
+    grid-column:1/2;
+    grid-row:1/3
+  }
+  
+  #ruleof3rds-head {
+    grid-column:-1/-2;
+    grid-row:1
+  }
+  
+  #ruleOfThirds {
+    grid-column:2/4;
+    grid-row:2/3
+  }
+  
+  #university {
+  grid-column:2/4;
+    grid-row: 3/6;
+  }
+  
+  #contrast-head {
+    grid-column:1/2;
+    grid-row:3;
+  }
+  
+  #contrast {
+    grid-column:1/2;
+    grid-row: 4/7;
+  }
+  
+#amazon {
+    grid-column:1/2;
+    grid-row:6/8;
+  }
+  
+  #repetition-head {
+    grid-column:2/4;
+    grid-row:6;
+    /*padding-bottom:-8em;*/
+  }
+  
+  #repetition {
+    grid-column:2/4;
+    grid-row:7/11;
+  }
+  
+
+  @media screen and (max-width: 550px) {
+    #design-grid{padding:1em;
+  display:grid;
+  grid-template-columns: 1;
+  grid-gap: 1em;
+  }
+}

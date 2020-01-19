@@ -28,4 +28,11 @@ body{
     max-width: 1300px;
     font-size: 4vw;
 }
+#navList{
+    display: flex;
+    list-style: none;
+    margin:0;
+    padding:0;
+    justify-content: space-evenly;
+}
 }
