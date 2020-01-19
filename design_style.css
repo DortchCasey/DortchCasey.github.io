@@ -13,6 +13,10 @@ h1 {
 nav{
     padding:1em;
 }
+main{
+    width:100%;
+    
+}
 
 nav a, nav a:visited{
     color:white;
@@ -22,6 +26,7 @@ img{
   max-width: 60%;
 min-width: 40%;
 }
+
 
 #design-grid {
   padding:1.2em;
@@ -90,10 +95,4 @@ min-width: 40%;
   }
   
 
-  @media screen and (max-width: 50px) {
-    #design-grid{padding:1em;
-  display:grid;
-  grid-template-columns: 1;
-  grid-gap: 1em;
-  }
-}
+  
