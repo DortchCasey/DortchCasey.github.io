@@ -10,6 +10,13 @@ h1 {
   grid-column:1;
   grid-row:1;
 }
+nav{
+    padding:1em;
+}
+
+nav a, nav a:visited{
+    color:white;
+}
 
 img{
   max-width: 60%;
