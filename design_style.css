@@ -63,7 +63,7 @@ min-width: 40%;
   #repetition-head {
     grid-column:2/4;
     grid-row:6;
-    /*padding-bottom:-8em;*/
+    
   }
   
   #repetition {
