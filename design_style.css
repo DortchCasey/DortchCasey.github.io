@@ -29,6 +29,7 @@ min-width: 40%;
 
 #design-grid{
   display: flex;
+  flex-direction: column;
   padding:1.2em;
   margin:auto;
   background-color:purple;
