@@ -31,64 +31,9 @@ min-width: 40%;
   display: flex;
   padding:1.2em;
   margin:auto;
-  background-color:whitesmoke;
-}
-#cult{
-  grid-column:1;
-  grid-row:4;
+  background-color:purple;
 }
 
-#ruleof3rds-head {
-  grid-column:1;
-  grid-row:2;
-  padding:.5em;
-  margin:none;
-}
-
-#ruleOfThirds {
-  grid-column:1;
-  grid-row:3;
-  padding-top: 2.95em;
-  margin-top:2em;
-}
-
-#university {
-grid-column:1;
- grid-row: 7;
-}
-
-#contrast-head {
-  grid-column:1;
-  grid-row:5;
-padding:.5em;
-  margin:none;
-}
-
-#contrast {
-  grid-column:1;
-  grid-row:6;
-padding-top: 2.95em;
-  margin-top:2em;
-}
-
-#amazon {
-  grid-column:1;
-  grid-row:10;
-}
-
-#repetition-head {
-  grid-column:1;
-  grid-row:8;
-   padding:.5em;
-  margin:none;
-}
-
-#repetition {
-  grid-column:1;
-  grid-row:9;
-padding-top: 2.95em;
-  margin-top:2em;
-}
 
 @media screen and (min-width:680px){
 #design-grid {
@@ -97,7 +42,7 @@ padding-top: 2.95em;
   display:grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1em;
-  background-color: thistle;
+  background-color: aqua;
   }
 
   
@@ -110,7 +55,6 @@ padding-top: 2.95em;
     grid-column:2/3;
     grid-row:2;
     padding:.5em;
-    margin:none;
   }
   
   #ruleOfThirds {
@@ -129,7 +73,6 @@ padding-top: 2.95em;
     grid-column:1;
     grid-row:4;
  padding:.5em;
-    margin:none;
   }
   
   #contrast {
@@ -148,7 +91,6 @@ padding-top: 2.95em;
     grid-column:2;
     grid-row:6;
      padding:.5em;
-    margin:none;
   }
   
   #repetition {
