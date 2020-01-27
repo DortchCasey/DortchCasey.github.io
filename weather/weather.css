@@ -62,7 +62,7 @@ nav{
     display:grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1em;
-    background-color: white;
+    background-color: aqua;
     }
   h1{
     grid-column: 1;
