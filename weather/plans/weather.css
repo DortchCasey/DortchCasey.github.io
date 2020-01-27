@@ -138,28 +138,28 @@ nav{
     grid-row: 6;
   }
   #scen3{
-    grid-column: 3;
-    grid-row: 5;
+    grid-column: 1;
+    grid-row: 7;
   }
   #scen3P{
-    grid-column: 3/4;
-    grid-row: 6;
+    grid-column: 1/2;
+    grid-row: 8;
   }
   #scen4{
     grid-column: 3;
-    grid-row: 5;
+    grid-row: 7;
   }
   #scen4P{
     grid-column: 3/4;
-    grid-row: 6;
+    grid-row: 8;
   }
   #scen5{
-    grid-column: 3;
-    grid-row: 5;
+    grid-column: 1;
+    grid-row: 9;
   }
   #scen5P{
-    grid-column: 3/4;
-    grid-row: 6;
+    grid-column: 1/2;
+    grid-row: 10;
   }
 
   footer{
