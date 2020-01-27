@@ -112,6 +112,7 @@ nav{
   #persona1List{
     grid-column:1/2;
     grid-row:4;
+    list-style-type: circle;
   }
   #persona2{
     grid-column:3/4;
