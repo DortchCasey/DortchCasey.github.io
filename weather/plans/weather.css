@@ -24,6 +24,9 @@ main{
 nav a, nav a:visited{
     color:black;
 }
+a:hover{
+  color:blue;
+}
 
 img{
   max-width: 60%;
