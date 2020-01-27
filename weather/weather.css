@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Nunito&display=swap');
+*{
+    box-sizing: border-box;
+  }
+
+body{
+    width:80%;
+}
+
+h1 {
+  font-family: 'Merriweathe', serif;
+  color: black;
+  grid-column:1;
+  grid-row:1;
+}
+nav{
+    padding:1em;
+}
+main{
+    width:100%;
+    
+}
+
+nav a, nav a:visited{
+    color:white;
+}
+
+img{
+  max-width: 60%;
+min-width: 40%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li{
+  display: inline;
+  padding:0.75em;
+}
+
+li a{
+  text-decoration: none;
+}
+
+nav{
+  font-size: 1.5em;
+}
+
+#weather_grid{
+  display: flex;
+  flex-direction: column;
+  padding:1.2em;
+  margin:auto;
+  background-color:white;
+}
+
+@media screen and (min-width:680px){
+  #weather_grid {
+    padding:1.2em;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+    background-color: white;
+    }
+  h1{
+    grid-column: 1;
+    grid-row:1;
+    padding: .5em;    
+  }
+  #typeP, #colorP{
+    grid-column:1;
+    grid-row:2;
+    padding:.5em;
+  }
+  #purpose{
+    grid-column: 1;
+    grid-row:2;
+  }
+  #indexP{
+    grid-column:1/3;
+    grid-row:3;
+  }
+  #domain{
+    grid-column:1;
+    grid-row:4;
+  }
+  #domainP{
+    grid-column:1/3;
+    grid-row:5;
+  }
+  #logo{
+    grid-column:1;
+    grid-row:6;
+  }
+  #logo_pic{
+    grid-column:2/4;
+    grid-row:6;
+  }
+  #audienceP{
+    grid-column:1/3;
+    grid-row:2;
+  }
+  #persona1{
+    grid-column:1/2;
+    grid-row:3;
+  }
+  #persona1List{
+    grid-column:1/2;
+    grid-row:4;
+  }
+  #persona2{
+    grid-column:3/4;
+    grid-row:3;
+  }
+  #persona2List{
+    grid-column:3/4;
+    grid-row:4;
+  }
+  #scen1{
+    grid-column: 1;
+    grid-row:5;
+  }
+  #scen1P{
+    grid-column:1/2;
+    grid-row: 6;
+  }
+  #scen2{
+    grid-column: 3;
+    grid-row: 5;
+  }
+  #scen2P{
+    grid-column: 3/4;
+    grid-row: 6;
+  }
+  #scen3{
+    grid-column: 3;
+    grid-row: 5;
+  }
+  #scen3P{
+    grid-column: 3/4;
+    grid-row: 6;
+  }
+  #scen4{
+    grid-column: 3;
+    grid-row: 5;
+  }
+  #scen4P{
+    grid-column: 3/4;
+    grid-row: 6;
+  }
+  #scen5{
+    grid-column: 3;
+    grid-row: 5;
+  }
+  #scen5P{
+    grid-column: 3/4;
+    grid-row: 6;
+  }
+
+  footer{
+    text-align: center;
+    padding:1em;
+  }
+
+
+  }
