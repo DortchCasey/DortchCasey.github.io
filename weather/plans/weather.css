@@ -17,14 +17,14 @@ nav{
     padding:1em;
 }
 main{
-    width:100%;
+    width:80%;
     
 }
 
 nav a, nav a:visited{
     color:black;
 }
-a:hover{
+nav a:hover{
   color:blue;
 }
 
