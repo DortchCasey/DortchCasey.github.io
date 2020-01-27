@@ -33,11 +33,11 @@ img{
 min-width: 40%;
 }
 
-ul {
+nav ul {
   list-style-type: none;
 }
 
-li{
+nav ul li{
   display: inline;
   padding:0.75em;
 }
@@ -112,7 +112,6 @@ nav{
   #persona1List{
     grid-column:1/2;
     grid-row:4;
-    list-style-type: circle;
   }
   #persona2{
     grid-column:3/4;
