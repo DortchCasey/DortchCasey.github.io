@@ -93,8 +93,9 @@ nav{
     display: block;
 }
 
-#wrapper{
+main{
     align-self:stretch;
+    padding:1rem;
 }
 
 p{
