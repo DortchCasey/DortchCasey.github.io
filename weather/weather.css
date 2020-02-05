@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Nunito&display=swap');
+/*General Rules*/
 *{
     box-sizing: border-box;
   }
@@ -9,16 +10,6 @@ body{
     padding: 0; 
     margin: 0; 
     
-}
-#mobile{
-    background-color: #808080;
-    margin:0;
-    padding:0;
-    display:flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
-    width:100%;
 }
 h1{
     font-family: 'Merriweather', sans-serif;
@@ -54,6 +45,27 @@ img{
     grid-column:1;
     grid-row:1/3;
 }
+footer a{
+    color:#fff;
+    text-decoration: none;
+}
+footer a :visited{
+    color:#fff;
+}
+
+/*Small Screen Rules*/
+
+#mobile{
+    background-color: #808080;
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+
 
 .navigation{
     list-style-type: none;
@@ -113,13 +125,7 @@ footer p{
     padding-bottom: 2.8rem;
     margin:0;
 }
-footer a{
-    color:#fff;
-    text-decoration: none;
-}
-footer a :visited{
-    color:#fff;
-}
+
 
 /* temporary div colors*/
 div{
@@ -131,8 +137,12 @@ div{
 div p{
     color:#fff;
 }
+#current{
+    background-color: #fff;
+    color: black;
+}
 
-/*for med screens*/
+/*for larger screens*/
 @media screen and (min-width:680px){
     .navigation li:first-child{
         display:none;
