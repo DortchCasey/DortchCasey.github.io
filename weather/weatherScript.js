@@ -8,7 +8,7 @@ var months=['January', 'February', 'March', 'April', 'May','June', 'July', 'Augu
 window.onload = function(){
     loadYear();
     function loadYear(){
-    document.getElementById('copyRightYear').innerHTML=curYear.getFullYear();
+    document.getElementById('copyRightYear').innerHTML=curDate.getFullYear();
     document.getElementById('lastModYear').innerHTML=days[lastModif.getDay()]+", "+lastModif.getDate()+
         " "+months[lastModif.getMonth()]+" "+lastModif.getFullYear(); //Wednesday, 24 July 2020
     }
