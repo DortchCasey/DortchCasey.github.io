@@ -52,183 +52,181 @@ img{
 
 /* div stuff*/
 span{
-    font-size:11px;
+    font-size:15px;
   }
   .box{
     border: 1px solid black;
-    width:140px;
-    height:160px;
+    width:220px;
+    height:230px;
     display:flex;
     position:relative;
-    background-color:#ffffff;
   }
   .largeCircle{
-    width:100px;
-    height:100px;
+    width:160px;
+    height:160px;
     background-color:#ccccb3;
-    border-radius:100px;  
+    border-radius:160px;  
     margin:auto;
-    z-index:3;
+    z-index:-3;
     position:absolute;
     top: 24px;
-    left: 19px;
+    left: 29px;
   }
   
   .midCircle{
-    width:70px;
-    height:70px;
+    width:120px;
+    height:120px;
     background-color:#ffffff;
-    border-radius:70px;  
+    border-radius:120px;  
     margin:auto;
-    z-index:4;
+    z-index:-2;
     position:absolute;
-    top: 15px;
-    left: 15px;
+    top: 20px;
+    left: 20px;
   }
   .smallCircle{
-    width:15px;
-    height:15px;
+    width:20px;
+    height:20px;
     background-color:#ff0000;
-    border-radius:15px;
+    border-radius:20px;
     margin:auto;
     position:absolute;
-    z-index:4;
-    left:45px;
+    z-index:1;
+    left:71px;
     top:0px;
   }
   .smallGray{
-     width:14px;
-    height:14px;
-    border-radius:14px;
+     width:20px;
+    height:20px;
+    border-radius:20px;
     background-color:#ccccb3;
     position:absolute;
-    top:16px;
+    top:34px;
     left:10px;
-    z-index:2;
+    z-index:-1;
   }
   
   .smallWhite{
-     width:41px;
-    height:34px;
-    border-radius:32px;
+    width:75px;
+    height:74px;
+    border-radius:75px;
     background-color:#ffffff;
     position:absolute;
-    top:-7px;
-    left:10px;
-    z-index:1;
+    top:-20px;
+    left:4px;
+    z-index:-2;
   }
   
   .hour0{
     position:absolute;
     top:0px;
-    left:48px;
+    left:76px;
   }
   .hour1{
     position:absolute;
-    top:7px;
-    left:68px;
+    top:12px;
+    left:112px;
   }
   .hour2{
     position:absolute;
-    top:20px;
-    left:83px;
+    top:35px;
+    left:135px;
   }
   .hour3{
     position:absolute;
-    top:42px;
-    left:89px;
+    top:72px;
+    left:145px;
   }
   .hour4{
     position:absolute;
-    top:64px;
-    left:83px;
+    top:106px;
+    left:135px;
   }
   .hour5{
     position:absolute;
-    top:80px;
-    left:68px;
+    top:132px;
+    left:110px;
   }
   .hour6{
     position:absolute;
-    top:86px;
-    left:48px;
+    top:141.5px;
+    left:76px;
   }
   .hour7{
     position:absolute;
-    top:80px;
-    left:26px;
+    top:132px;
+    left:39px;
   }
   .hour8{
     position:relative;
-    top:62px;
-    left:10px;
+    top:106px;
+    left:15px;
   }
   .hour9{
     position:absolute;
-      top:42px;
-      left:4px;
+    top:72px;
+    left:5px;
   }
   .hour10{
     position:absolute;
-    top:20px;
-    left:7px;
-    z-index:4;
+    top:35px;
+    left:11px;
   }
   
   .out0{
-    position:relative;
-    top: 12px;
-    left: 65px;
+    position:absolute;
+    top: 5px;
+    left: 101px;
   }
   .out1{
-    position:relative;
-    top: 18px;
-    left: 79px;
+    position:absolute;
+    top: 20px;
+    left: 151px;
   }
   .out2{
-    position:relative;
-    top: 38px;
-    left: 89px;
+    position:absolute;
+    top: 50px;
+    left: 180px;
   }
   .out3{
-    position:relative;
-    top: 66px;
-    left: 84px;
+    position:absolute;
+    top: 95px;
+    left: 194px;
   }
   .out4{
-    position:relative;
-    top: 96px;
-    left: 65px;
+    position:absolute;
+    top: 140px;
+    left:182px;
   }
   .out5{
-    position:relative;
-    top: 118px;
-    left: 33px;
+    position:absolute;
+    top: 172px;
+    left: 149px;
   }
   .out6{
-    position:relative;
-    top: 126px;
-    right: 8.5px;
+    position:absolute;
+    top: 187px;
+    left: 101px;
   }
   .out7{
-    position:relative;
-    top: 118px;
-    right: 53px;
+    position:absolute;
+    top: 172px;
+    left: 45px;
   }
   .out8{
-    position:relative;
-    top: 96px;
-    right: 86.5px;
+    position:absolute;
+    top: 140px;
+    left: 15px;
   }
   .out9{
-    position:relative;
-    top: 66px;
-    right: 105px;
+    position:absolute;
+    top: 95px;
+    left: 5px;
   }
   .out10{
-    position:relative;
-    top: 38px;
-    right: 110px;
+    position:absolute;
+    top: 50px;
+    left:15px;
   }
   .title{
     position:relative;
@@ -236,6 +234,7 @@ span{
     left:-130px;
     font-size:.75em;
   }
+  
   
   
 
