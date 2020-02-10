@@ -59,7 +59,8 @@ span{
     width:140px;
     height:160px;
     display:flex;
-    
+    position:relative;
+    background-color:#ffffff;
   }
   .largeCircle{
     width:100px;
@@ -67,10 +68,10 @@ span{
     background-color:#ccccb3;
     border-radius:100px;  
     margin:auto;
-    z-index:-3;
+    z-index:3;
     position:absolute;
-    top: 60px;
-    left: 60px;
+    top: 24px;
+    left: 19px;
   }
   
   .midCircle{
@@ -79,7 +80,7 @@ span{
     background-color:#ffffff;
     border-radius:70px;  
     margin:auto;
-    z-index:-2;
+    z-index:4;
     position:absolute;
     top: 15px;
     left: 15px;
@@ -91,7 +92,7 @@ span{
     border-radius:15px;
     margin:auto;
     position:absolute;
-    z-index:1;
+    z-index:4;
     left:45px;
     top:0px;
   }
@@ -103,7 +104,7 @@ span{
     position:absolute;
     top:16px;
     left:10px;
-    z-index:-1;
+    z-index:2;
   }
   
   .smallWhite{
@@ -114,7 +115,7 @@ span{
     position:absolute;
     top:-7px;
     left:10px;
-    z-index:-2;
+    z-index:1;
   }
   
   .hour0{
@@ -158,19 +159,20 @@ span{
     left:26px;
   }
   .hour8{
-    position:absolute;
-    top:64px;
+    position:relative;
+    top:62px;
     left:10px;
   }
   .hour9{
     position:absolute;
-    top:42px;
-    left:4px;
+      top:42px;
+      left:4px;
   }
   .hour10{
     position:absolute;
     top:20px;
     left:7px;
+    z-index:4;
   }
   
   .out0{
@@ -229,11 +231,12 @@ span{
     right: 110px;
   }
   .title{
-    position:absolute;
-    top:180px;
-    padding-left:2px;
+    position:relative;
+    top:145px;
+    left:-130px;
     font-size:.75em;
   }
+  
   
 
 #current{
