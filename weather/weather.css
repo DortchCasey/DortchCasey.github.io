@@ -8,8 +8,7 @@ body{
     width:100%;
     background-color:#808080;
     padding: 0; 
-    margin: 0; 
-    
+    margin: 0;    
 }
 h1{
     font-family: 'Merriweather', sans-serif;
@@ -46,6 +45,15 @@ img{
     grid-row:1/3;
 }
 
+#background{
+  background-image: url("images/images/clear.jpg");
+  background-color: #ff0000;
+  background-size: cover;
+  height:100%;
+  padding:.5rem;
+
+}
+
 .gpsLocation{
     color:#000;
 }
@@ -61,6 +69,8 @@ span{
   display:flex;
   position:relative;
   background-color:#ffffff;
+  flex-shrink: 0;
+  z-index: 1;
 }
 .largeCircle{
   width:160px;
@@ -68,7 +78,7 @@ span{
   background-color:#ccccb3;
   border-radius:160px;
   margin:auto;
-  z-index:0;
+  z-index:2;
   position:absolute;
   top: 24px;
   left: 29px;
@@ -80,7 +90,7 @@ span{
   background-color:#ffffff;
   border-radius:120px;  
   margin:auto;
-  z-index:1;
+  z-index:3;
   position:absolute;
   top: 20px;
   left: 20px;
@@ -92,7 +102,7 @@ span{
   border-radius:20px;
   margin:auto;
   position:absolute;
-  z-index:3;
+  z-index:4;
   left:69.3px;
   top:0px;
 }
@@ -219,6 +229,13 @@ left:37px;
 
 #current{
     background-color: #fff;
+    height:150px;
+    width:70%;
+    margin:auto;
+    position: relative;
+    z-index: 1;
+    border: 1px solid black;
+    padding:.25rem;
 }
 #current p{
     color:black;
@@ -252,6 +269,7 @@ footer a :visited{
     padding:0;
     margin:0;
     width: 100%;
+    
 }
 .navigation li:first-child{
     display:block;
@@ -277,6 +295,7 @@ nav{
     bottom:0;
     width:100%;
     border-top: 3px solid #808080;
+    z-index: 4;
 
     background: rgb(0,212,255);
     background: linear-gradient(0deg, rgba(0,212,255,1) 0%, rgba(55,127,240,1) 0%, rgba(22,22,170,1) 86%);
@@ -347,6 +366,13 @@ footer p{
     }
     .tagline{
         font-size:1rem;
+    }
+    #largeScreen{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-content:space-around;
+      justify-content: center;
     }
 
 }
