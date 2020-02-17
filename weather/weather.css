@@ -60,6 +60,7 @@ span{
   height:230px;
   display:flex;
   position:relative;
+  background-color:#ffffff;
 }
 .largeCircle{
   width:160px;
