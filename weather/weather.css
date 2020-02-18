@@ -51,7 +51,10 @@ img{
   background-size: cover;
   height:100%;
   padding:.5rem;
-
+}
+.lazy{
+  background-image:none;
+  
 }
 
 .gpsLocation{

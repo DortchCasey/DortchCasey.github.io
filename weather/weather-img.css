@@ -1,0 +1,15 @@
+#wrapper{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width:500px;
+    height: 500px;
+}
+.lazy{
+    background-image: url(images/images/placeholder-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
