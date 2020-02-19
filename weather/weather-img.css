@@ -5,6 +5,28 @@
     align-items: center;
 }
 img{
-    width:500px;
-    height: 500px;
+     max-width: 200px;
+     min-width: 100px;
+
+}
+.img[data-src]{
+    filter: blur(0.2em);
+}
+picture img{
+    filter: blur(0em);
+    transition: filter .5s;
+}
+
+
+.lazy{
+    background-image: url("images/images/placeholder-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width:680px){
+    img{
+        max-width:700px;
+        min-width:600px;
+    }
 }
