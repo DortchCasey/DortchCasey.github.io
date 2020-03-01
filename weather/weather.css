@@ -46,16 +46,41 @@ img{
 }
 
 #background{
-  background-image: url("images/images/clear.jpg");
-  background-color: #ff0000;
+  
+  background-color: #888888;
   background-size: cover;
   height:100%;
   padding:.5rem;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.lazy{
-  background-image:none;
-  
+
+.snow{
+  background-image: url("../weather/images/images/snow_small.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+.clear{
+  background-image: url("../weather/images/images/clear_small.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.fog{
+  background-image: url("../weather/images/images/fog_small.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.clouds{
+  background-image: url("../weather/images/images/clouds_small.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.rain{
+  background-image: url("../weather/images/images/rain_small.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 
 .gpsLocation{
     color:#000;
@@ -65,15 +90,16 @@ img{
 span{
   font-size:15px;
 }
+span{
+  font-size:15px;
+}
 .box{
   border: 1px solid black;
   width:220px;
   height:230px;
   display:flex;
   position:relative;
-  background-color:#ffffff;
-  flex-shrink: 0;
-  z-index: 1;
+  background-color: #fff;
 }
 .largeCircle{
   width:160px;
@@ -81,7 +107,7 @@ span{
   background-color:#ccccb3;
   border-radius:160px;
   margin:auto;
-  z-index:2;
+  z-index:0;
   position:absolute;
   top: 24px;
   left: 29px;
@@ -93,75 +119,72 @@ span{
   background-color:#ffffff;
   border-radius:120px;  
   margin:auto;
-  z-index:3;
+  z-index:1;
   position:absolute;
   top: 20px;
   left: 20px;
 }
 .smallCircle{
-  width:20px;
-  height:20px;
   background-color:#ff0000;
-  border-radius:20px;
-  margin:auto;
-  position:absolute;
-  z-index:4;
-  left:69.3px;
-  top:0px;
+  color:#ff0000;
 }
 
 .inner{
   margin:auto;
   position:absolute;
   top:73px;
-  right:73px;
+  right:70px;
   z-index:3;
+  width:18px;
+  height:18px;
+  border-radius:20px;
+  text-align:center;
+  
 }
 
 .hour12{
- top:1px;
+ top:2px;
 }
 .hour1{
  top:12px;
- right:39px;
+ left:107px;
 }
 .hour2{
-top:39px;
- right:14px;
+top:38px;
+ left:132px;
 }
 .hour3{
-  right:6px;
+  right:1px;
 }
 .hour4{
- top:104px;
- right:14px; 
+  top:107px;
+ left:130px;
 }
 .hour5{
- top:131px; 
- right:39px; 
+ top:132px;
+ left:108px;
 }
 .hour6{
- top:142px;
-  right:76px; 
+ top:142px
 }
 .hour7{
-top:131px; 
-left:37px;  
+ top:132px;
+ left:-4px;
 }
 .hour8{
- top:104px;
- left:13px; 
+  top:107px;
+ right:131px;
 }
 .hour9{
-  left:6px;
+  right:141px;
 }
 .hour10{
- top:39px;
- left:8px;
+top:38px;
+ right:133px;
 }
 .hour11{
-  top:12px;
- left:33px;
+ top:12px;
+ left:-3px;
 }
 
 
@@ -226,9 +249,7 @@ left:37px;
   font-size:1em;
 }
 
-  
-  
-  
+
 
 #current{
     background-color: #fff;
@@ -239,10 +260,27 @@ left:37px;
     z-index: 1;
     border: 1px solid black;
     padding:.25rem;
+    display:grid;
+    grid-template-columns: repeat(3, fr);
+    grid-template-rows: auto;
 }
+
 #current p{
     color:black;
 }
+#degrees1{
+  grid-column:1;
+  grid-row:1;
+}
+#degrees2{
+  grid-column:2;
+  grid-row:1/2;
+}
+#degrees3{
+  grid-column:3;
+  grid-row:1;
+}
+
 
 footer a{
     color:#fff;
@@ -352,6 +390,33 @@ footer p{
         margin:0;
         padding:0;
     }
+
+    .snow{
+      background-image: url("../weather/images/images/snow.jpg");
+      background-size: cover;
+  background-repeat: no-repeat;
+    }
+    .clear{
+      background-image: url("../weather/images/images/clear.jpg");
+      background-size: cover;
+  background-repeat: no-repeat;
+    }
+    .fog{
+      background-image: url("../weather/images/images/fog.jpg");
+      background-size: cover;
+  background-repeat: no-repeat;
+    }
+    .clouds{
+      background-image: url("../weather/images/images/clouds.jpg");
+      background-size: cover;
+  background-repeat: no-repeat;
+    }
+    .rain{
+      background-image: url("../weather/images/images/rain.jpg");
+      background-size: cover;
+  background-repeat: no-repeat;
+    }
+
     nav{
         position:static;
         order:0;

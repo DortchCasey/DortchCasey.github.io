@@ -1,3 +1,6 @@
+/* This code has been duplicated in the function.js file. Use that file
+instead- CD 02/2020 */
+
 /*Simple js to dynamicaly get the copyright year 
 and the time the document was last modified. */
 var lastModif = new Date(document.lastModified);
