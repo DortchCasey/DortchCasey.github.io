@@ -261,7 +261,7 @@ top:38px;
     border: 1px solid black;
     padding:.25rem;
     display:grid;
-    grid-template-columns: repeat(3, fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
 }
 
